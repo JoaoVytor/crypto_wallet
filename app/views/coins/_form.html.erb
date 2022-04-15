@@ -12,18 +12,19 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :description %>
+    <%= form.label "Nome" %>
     <%= form.text_field :description %>
   </div>
 
   <div class="field">
-    <%= form.label :acronym %>
+    <%= form.label "Sigla" %>
     <%= form.text_field :acronym %>
   </div>
 
   <div class="field">
-    <%= form.label :url_imagem %>
+    <%= form.label "Link Imagem" %>
     <%= form.text_field :url_imagem %>
+    <td><%= image_tag coin.url_imagem, size: "25x25" %></td>
   </div>
 
   <div class="actions">

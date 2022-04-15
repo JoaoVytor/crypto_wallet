@@ -1,12 +1,10 @@
 <h1>Seja Bem-Vindo</h1>
-<p>
-    JOAO :)
-</p>
+<p> <strong> Data: <%= data_br(Date.today) %></p></strong>
 
-<% nome = "Vitor" %>
+<ul>
 
-<p> A soma é: <%= 1+1 %></p>
+    <li>
+        <%= link_to "Cadastro de Moedas", coins_path %>
+    </li>
+</ul>
 
-<p> Data de hoje é: <%= Date.today %></p>
-
-<p> <%= nome.reverse %></p>
